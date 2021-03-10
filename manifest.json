@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Fandom Spammer",
+  "version": "0.1.0",
+  "description": "Spam a Fandom.",
+
+  "content_scripts": [
+  {
+    "js": ["savePage.js"],
+    "matches": ["https://tv-8-kids-fun-festival-aka-pink-morning-cartoon.fandom.com/wiki/*", "https://i-ready.fandom.com/wiki/*"]
+  }
+]
+}
